@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Color Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator">
+    <h1>Color Calculator</h1>
+    <h4>By: Jackie Wang</h4>
+
+    <div class="button-groups">
+      <div>
+        <p>1st color:</p>
+        <div class="color-buttons" id="color1-buttons"></div>
+      </div>
+      <div>
+        <p>2nd color:</p>
+        <div class="color-buttons" id="color2-buttons"></div>
+      </div>
+    </div>
+
+    <button onclick="mixColors()">Mix colors</button>
+
+    <div id="result-box"></div>
+    <p id="result-hex"></p>
+    <button onclick="carryResult()">Use this color</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
